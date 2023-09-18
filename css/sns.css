@@ -1,0 +1,55 @@
+section#sns {
+  
+}
+section#sns div.wrap {
+
+}
+section#sns div.wrap h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+section#sns div.wrap ul.list {
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+section#sns div.wrap ul.list li {
+  
+  width: 63px;
+  height: 64px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+section#sns div.wrap ul.list li a {
+  width: 63px;
+  height: 64px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+}
+section#sns div.wrap ul.list li:nth-child(1) a{
+  background-image: url(../img/facebook.png);
+}
+section#sns div.wrap ul.list li:nth-child(2) a{
+  background-image: url(../img/instagram.png);
+}
+section#sns div.wrap ul.list li:nth-child(3) a{
+  background-image: url(../img/youtube.png);
+}
+section#sns div.wrap ul.list li:nth-child(4) a{
+  background-image: url(../img/naverblog.png);
+}
+section#sns div.wrap ul.list li:nth-child(5) a{
+  background-image: url(../img/navertv.png);
+}
+section#sns div.wrap ul.list li:nth-child(6) a{
+  background-image: url(../img/kakaostory.png);
+}
+section#sns div.wrap ul.list li:nth-child(7) a{
+  background-image: url(../img/naverpost.png);
+}
+section#sns div.wrap ul.list li:nth-child(8) a{
+  background-image: url(../img/kakaotv.png);
+}

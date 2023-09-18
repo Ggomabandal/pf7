@@ -1,0 +1,100 @@
+section#service {
+  
+  border-bottom: 1px solid #DDDDDD;
+}
+section#service div.wrap {
+  align-items: center;
+}
+section#service div.wrap h2 {
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+section#service div.wrap ul.service {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #DDDDDD;
+  background-color: #F9F9F9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+section#service div.wrap ul.service li {
+  
+  width: calc(100% / 5);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+section#service div.wrap ul.service li a {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  color: #444444;
+  font-size: 20px;
+  font-weight: 500;
+}
+section#service div.wrap ul.service li a::before {
+  content: "";
+  width: 240px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section#service div.wrap ul.service li:nth-child(1) a::before {
+  background-image: url(../img/service1.png);
+}
+section#service div.wrap ul.service li:nth-child(2) a::before {
+  background-image: url(../img/service2.png);
+}
+section#service div.wrap ul.service li:nth-child(3) a::before {
+  background-image: url(../img/service3.png);
+}
+section#service div.wrap ul.service li:nth-child(4) a::before {
+  background-image: url(../img/service4.png);
+}
+section#service div.wrap ul.service li:nth-child(5) a::before {
+  background-image: url(../img/service5.png);
+}
+section#service div.wrap ul.doc {
+  width: 100%;
+  gap: 30px;
+}
+section#service div.wrap ul.doc li {
+  width: calc(100% / 3);
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: #009999;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+section#service div.wrap ul.doc li:nth-child(2) {
+  background-color: #60CDC7;
+}
+section#service div.wrap ul.doc li a {
+  color: white;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-size: 19px;
+}
+section#service div.wrap ul.doc li a::after {
+  content: "";
+  width: 95px;
+  height: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+section#service div.wrap ul.doc li:nth-child(1) a::after {
+  background-image: url(../img/doc1.png);
+}
+section#service div.wrap ul.doc li:nth-child(2) a::after {
+  background-image: url(../img/doc2.png);
+}
+section#service div.wrap ul.doc li:nth-child(3) a::after {
+  background-image: url(../img/doc3.png);
+}

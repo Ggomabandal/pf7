@@ -1,0 +1,124 @@
+section#reservation {
+  
+}
+section#reservation div.wrap {
+  flex-wrap: wrap;
+  gap: 40px;
+}
+section#reservation div.wrap h2 {
+  
+}
+section#reservation div.wrap div.first {
+  width: 580px;
+  height: 170px;
+  background-color: #F9F9F9;
+  position: relative;
+}
+section#reservation div.wrap div.first::after{
+  content: "";
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  background-image: url(../img/reservation1.png);
+  right: 0;
+}
+section#reservation div.wrap div.first h3 {
+  
+}
+section#reservation div.wrap div.first p {
+  font-size: 50px;
+  font-weight: 500;
+}
+section#reservation div.wrap div.second {
+  width: 580px;
+  height: 170px;
+  row-gap: 30px;
+}
+section#reservation div.wrap div.second div.container {
+  
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 24px;
+}
+section#reservation div.wrap div.second div.container h3 {
+  
+  font-size: 24px;
+}
+section#reservation div.wrap div.second div.container p {
+  
+}
+section#reservation div.wrap div.second ul {
+  display: flex;
+  gap: 20px;
+}
+section#reservation div.wrap div.second ul li {
+  width: 148px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF9C1D;
+}
+section#reservation div.wrap div.second ul li:nth-child(3) {
+  width: 177px;
+}
+section#reservation div.wrap div.second ul li a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+section#reservation div.wrap div.third {
+  
+}
+section#reservation div.wrap div.third,div.fourth,div.fifth,div.sixth {
+  width: calc((100% - 120px) / 4);
+  height: 120px;
+}
+section#reservation div.wrap div.third h3 {
+  
+}
+section#reservation div.wrap div.third p {
+  font-size: 15px;
+}
+section#reservation div.wrap div.fourth {
+  
+}
+section#reservation div.wrap div.fourth h3 {
+  
+}
+section#reservation div.wrap div.fourth p {
+  font-size: 15px;
+}
+section#reservation div.wrap div.fifth {
+  
+  border-color: transparent;
+  background-image: url(../img/reservation2.png);
+}
+section#reservation div.wrap div.fifth h3 {
+  
+}
+section#reservation div.wrap div.fifth h3 a {
+  
+  color: white;
+}
+section#reservation div.wrap div.sixth {
+  
+  background-image: url(../img/reservation3.png);
+  border-color: transparent;
+}
+section#reservation div.wrap div.sixth h3 {
+  
+}
+section#reservation div.wrap div.sixth h3 a {
+  color: white;
+}
+section#reservation div.wrap p{
+  color: #009999;
+  font-weight: 500;
+}
+section#reservation div.wrap h3{
+  font-size: 24px;
+  font-weight: 500;
+}

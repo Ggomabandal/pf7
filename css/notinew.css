@@ -1,0 +1,65 @@
+section#notinew {
+  
+}
+section#notinew div.wrap {
+  
+  flex-wrap: wrap;
+  gap: 40px;
+}
+section#notinew div.wrap div{
+  
+  width: calc((100% - 40px) / 2);
+}
+section#notinew div.wrap h2 {
+  
+}
+section#notinew div.wrap div.container {
+  
+}
+section#notinew div.wrap div.container h3 {
+  
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+section#notinew div.wrap div.container ul {
+  
+  height: 170px;
+  padding: 30px;
+  row-gap: 20px;
+}
+section#notinew div.wrap div.container ul li {
+  
+  display: flex;
+  justify-content: space-between;
+}
+section#notinew div.wrap div.container ul li a {
+  
+  font-size: 18px;
+  font-weight: 400;
+  color: #444444;
+}
+section#notinew div.wrap div.container ul li time {
+  
+  font-size: 15px;
+  color: #999999;
+}
+section#notinew div.wrap div.img {
+  
+  height: 120px;
+  padding: 0;
+}
+section#notinew div.wrap div:nth-of-type(3) {
+  background-image: url(../img/news1.png);
+}
+section#notinew div.wrap div:nth-of-type(4) {
+  background-image: url(../img/news2.png);
+}
+section#notinew div.wrap div:nth-of-type(5) {
+  width: 100%;
+  background-image: url(../img/news3.png);
+}
+section#notinew div.wrap div.img a {
+  
+  width: 100%;
+  height: 120px;
+}

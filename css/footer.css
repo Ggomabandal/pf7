@@ -1,0 +1,169 @@
+footer {
+  
+  background-color: #7E8389;
+}
+footer div.wrap {
+  
+  padding: 50px 0 100px 0;
+}
+footer div.wrap div.first {
+  
+  display: flex;
+  padding-bottom: 25px;
+}
+footer div.wrap div.first h2 {
+  
+  width: 15%;
+}
+footer div.wrap div.first ul.fnb {
+  
+  width: 85%;
+  display: flex;
+  font-size: 12px;
+}
+footer div.wrap div.first ul.fnb li {
+  
+}
+footer div.wrap div.first ul.fnb li a {
+  
+  padding: 0 11px;
+  color: white;
+}
+footer div.wrap div.second {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+footer div.wrap div.second address {
+  
+  width: 35%;
+  font-size: 12px;
+  color: white;
+  line-height: 1.5;
+  letter-spacing: -1px;
+}
+footer div.wrap div.second ul.link {
+  
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  gap: 5px;
+}
+footer div.wrap div.second ul.link li {
+  
+  width: 228px;
+  display: flex;
+}
+footer div.wrap div.second ul.link li select {
+  
+  width: 160px;
+  margin-right: 3px;
+  font-size: 12px;
+  border: none;
+  height: 19px;
+}
+footer div.wrap div.second ul.link li a {
+  
+  padding: 0px 2px;
+  background-color: #323639;
+  color: white;
+  line-height: 19px;
+  height: 19px;
+  font-size: 13px;
+  width: 60px;
+  text-align: center;
+}
+footer div.wrap div.second ul.certificate {
+  
+  width: 15%;
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+footer div.wrap div.second ul.certificate li {
+  
+}
+footer div.wrap div.second ul.certificate li a {
+  width: 45px;
+  height: 45px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer div.wrap div.second ul.certificate li:nth-child(1) a {
+  background-image: url(../img/certificate01.png)
+}
+footer div.wrap div.second ul.certificate li:nth-child(2) a {
+  background-image: url(../img/certificate02.png);
+  width: 32px;
+  height: 49px;
+}
+footer div.wrap div.second ul.certificate li:nth-child(3) a {
+  background-image: url(../img/certificate03.png);
+  width: 49px;
+}
+footer div.wrap div.second ul.certificate li:nth-child(4) a {
+  background-image: url(../img/certificate04.png)
+}
+footer div.wrap ul.sns {
+  
+  display: flex;
+  width: 315px;
+  height: 28px;
+}
+footer div.wrap ul.sns li {
+  width: 28px;
+  height: 28px;
+  margin-right: 7px;
+}
+footer div.wrap ul.sns li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-size: 0;
+  background-image: url(../img/footersns.png);
+  background-repeat: no-repeat;
+}
+footer div.wrap ul.sns li:nth-child(1) a {
+  
+}
+footer div.wrap ul.sns li:nth-child(2) a {
+  
+  background-position-x: -35px;
+}
+footer div.wrap ul.sns li:nth-child(3) a {
+  
+  background-position-x: -70px;
+}
+footer div.wrap ul.sns li:nth-child(4) a {
+  
+  background-position-x: -105px;
+}
+footer div.wrap ul.sns li:nth-child(5) a {
+  
+  background-position-x: -140px;
+}
+footer div.wrap ul.sns li:nth-child(6) a {
+  
+  background-position-x: -175px;
+}
+footer div.wrap ul.sns li:nth-child(7) a {
+  
+  background-position-x: -210px;
+}
+footer div.wrap ul.sns li:nth-child(8) a {
+  
+  background-position-x: -245px;
+}
+footer div.wrap ul.sns li:nth-child(9) a {
+  
+  background-position-x: -278px;
+}
+footer div.wrap ul.sns li a:hover {
+  background-position-y: -28px;
+}

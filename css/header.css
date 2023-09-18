@@ -1,0 +1,111 @@
+header {
+  
+}
+header div.wrap {
+  
+  max-width: 1903px;
+}
+header div.wrap div.infocolor {
+  
+  background-color: #313334;
+}
+header div.wrap div.infocolor div.info {
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header div.wrap div.infocolor div.info ul.list {
+  
+  width: 330px;
+  justify-content: space-between;
+  padding: 13px 0;
+  align-items: center;
+}
+header div.wrap div.infocolor div.info ul.list li {
+  
+  display: flex;
+  align-items: center;
+}
+header div.wrap div.infocolor div.info ul.list li a {
+  
+  color: #C6D1D1;
+  font-size: 11px;
+}
+header div.wrap div.infocolor div.info ul.search {
+
+  width: 130px;
+}
+header div.wrap div.infocolor div.info ul.search li {
+
+}
+header div.wrap div.infocolor div.info ul.search li:nth-child(1) {
+  width: 70px;
+  padding-left: 20px;
+  margin-left: 10px;
+  height: 37px;
+  background-color: #555555;
+  display: flex;
+}
+header div.wrap div.infocolor div.info ul.search li:nth-child(2) {
+  width: 38px;
+  height: 37px;
+  display: flex;
+}
+header div.wrap div.infocolor div.info ul.search li a.languege{
+
+  width: 100%;
+  font-size: 13px;
+  line-height: 37px;
+  color: white;
+}
+header div.wrap div.infocolor div.info ul.search li a.search{
+
+  background-image: url(../img/search.png);
+  width: 100%;
+}
+header div.wrap div.gnbwrap{
+
+  background-color: #FFFFFF;
+}
+header div.wrap div.gnbwrap div.container{
+  max-width: 1200px;
+  margin: 0 auto;  
+}
+header div.wrap div.gnbwrap div.container div.info {
+  line-height: 88px;
+}
+header div.wrap div.container h1 {
+  
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+header div.wrap div.container h1 a {
+  
+  padding: 25px 0;
+  width: 140px;
+  height: 38px;
+  display: flex;
+  font-size: 0;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header div.wrap div.container ul.gnb {
+  
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+header div.wrap div.container ul.gnb li {
+  
+  height: 88px;
+}
+header div.wrap div.container ul.gnb li a {
+  
+  padding: 25px 0;
+  font-size: 19px;
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 77px;
+}

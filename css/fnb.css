@@ -1,0 +1,68 @@
+section#fnb {
+  
+}
+section#fnb div.wrap {
+  
+}
+section#fnb div.wrap h2 {
+  
+}
+section#fnb div.wrap ul {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+section#fnb div.wrap ul li.box {
+  
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  padding: 0;
+  justify-content: center;
+}
+section#fnb div.wrap ul li.box a {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 150px;
+  border-radius: 100%;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+section#fnb div.wrap ul li.box:nth-child(1) a {
+  background-image: url(../img/fnb1.png);
+}
+section#fnb div.wrap ul li.box:nth-child(2) a {
+  background-image: url(../img/fnb2.png);
+}
+section#fnb div.wrap ul li.box:nth-child(3) a {
+  background-image: url(../img/fnb3.png);
+}
+section#fnb div.wrap ul li.box:nth-child(4) a {
+  background-image: url(../img/fnb4.png);
+}
+section#fnb div.wrap ul li.box:nth-child(5) a {
+  background-image: url(../img/fnb5.png);
+}
+section#fnb div.wrap ul li.box:nth-child(6) a {
+  background-image: url(../img/fnb6.png);
+}
+section#fnb div.wrap ul li.box:nth-child(7) a {
+  background-image: url(../img/fnb7.png);
+}
+section#fnb div.wrap ul li.box:nth-child(8) a {
+  background-image: url(../img/fnb8.png);
+}
+section#fnb div.wrap ul li.box:nth-child(9) a {
+  background-image: url(../img/fnb9.png);
+}
+section#fnb div.wrap ul li.box:nth-child(10) a {
+  background-image: url(../img/fnb10.png);
+}
+section#fnb div.wrap ul li.box:nth-child(11) a {
+  background-image: url(../img/fnb11.png);
+}
+section#fnb div.wrap ul li.box:nth-child(12) a {
+  background-image: url(../img/fnb12.png);
+}
