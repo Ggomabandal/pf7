@@ -7,7 +7,7 @@
 원본 url : https://www.amc.seoul.kr/asan/main.do
 
 ## 클론 웹사이트 스크린 샷 링크
-클론코딩페이지 url : https://ggomabandal.github.io/pf5/
+클론코딩페이지 url : https://ggomabandal.github.io/pf7/
 
 ![asan-pf7](https://github.com/Ggomabandal/pf7/assets/142555219/927a71a8-ceb5-41b9-85d5-4382157f4636)
 
