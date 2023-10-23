@@ -4,7 +4,7 @@
 ## 원본 웹사이트
 <img src="https://github.com/Ggomabandal/pf7/assets/142555219/e27c382d-f743-40c3-b002-890570ca244a.png" width="400" height="200"/>
 
-https://www.amc.seoul.kr/asan/main.do
+원본 url : https://www.amc.seoul.kr/asan/main.do
 
 ## 클론 웹사이트 스크린 샷 링크
 클론코딩페이지 url : https://ggomabandal.github.io/pf5/
