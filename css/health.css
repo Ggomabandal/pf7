@@ -63,76 +63,74 @@ section#health div.wrap div.container div.health ul.button li:nth-child(2) a{
 }
 section#health div.wrap div.container div.health div.hidden {
   width: 420px;
-  overflow: hidden;
+  /*! overflow: hidden; */
   box-sizing: border-box;
 }
 section#health div.wrap div.container div.health div.hidden ul {
   
-  width: calc(520px * 3);
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  gap: 20px;
 }
 section#health div.wrap div.container div.health div.hidden ul li {
   height: 144px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li{
   
 }
-section#health div.wrap div.container div.health div.hidden ul li::before {
+section#health div.wrap div.container div.health div.hidden ul li a::before {
   content: "";
   width: 200px;
   height: 114px;
   background-size: contain;
   background-repeat: no-repeat;
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(1)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv1 a::before {
   background-image: url(../img/healthtv1.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(2)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv2 a::before {
   background-image: url(../img/healthtv2.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(3)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv3 a::before {
   background-image: url(../img/healthtv3.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(4)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv4 a::before {
   background-image: url(../img/healthtv4.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(5)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv5 a::before {
   background-image: url(../img/healthtv5.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li:nth-child(6)::before {
+section#health div.wrap div.container div.health:nth-child(1) div.hidden ul li.healthtv6 a::before {
   background-image: url(../img/healthtv6.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li a::before {
 
   background-position: center;
   border: 1px solid #DDDDDD;
   box-sizing: border-box;
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(1)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo1 a::before {
   background-image: url(../img/healthinfo1.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(2)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo2 a::before {
   background-image: url(../img/healthinfo2.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(3)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo3 a::before {
   background-image: url(../img/healthinfo3.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(4)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo4 a::before {
   background-image: url(../img/healthinfo4.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(5)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo5 a::before {
   background-image: url(../img/healthinfo5.jpg);
 }
-section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li:nth-child(6)::before {
+section#health div.wrap div.container div.health:nth-child(2) div.hidden ul li.healthinfo6 a::before {
   background-image: url(../img/healthinfo6.jpg);
 }
 section#health div.wrap div.container div.health div.hidden ul li a {
   width: 200px;
-  height: 30px;
+  height: 144px;
   display: flex;
   flex-direction: column;
   line-height: 30px;
@@ -184,6 +182,7 @@ section#health div.wrap ul.list li.box a {
   display: flex;
   padding-left: 30px;
   justify-content: space-between;
+  color: white;
 }
 section#health div.wrap ul.list li.box:nth-child(3) a{
   
@@ -193,4 +192,32 @@ section#health div.wrap ul.list li.box a h3 {
   
   color: white;
   line-height: 78px;
+}
+#health .slick-prev{
+  width: 30px;
+  height: 30px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/left.png);
+  background-position: left;
+  top: 40%;
+}
+#health .slick-prev::before{
+  content: "";
+}
+#health .slick-next{
+  width: 30px;
+  height: 30px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/right.png);
+  background-position: right;
+  top: 40%;
+}
+#health .slick-next::before{
+  content: "";
 }

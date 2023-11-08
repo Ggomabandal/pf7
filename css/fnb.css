@@ -7,18 +7,19 @@ section#fnb div.wrap {
 section#fnb div.wrap h2 {
   
 }
-section#fnb div.wrap ul {
-  
+section#fnb div.wrap ul {  
   display: flex;
-  flex-wrap: wrap;
+  width: 1080px;
+  margin: 0 auto;
 }
 section#fnb div.wrap ul li.box {
   
-  width: 150px;
+  width: 150px !important;
   height: 150px;
   border-radius: 100%;
   padding: 0;
   justify-content: center;
+  margin: 0 15px;
 }
 section#fnb div.wrap ul li.box a {
   display: flex;
@@ -30,39 +31,67 @@ section#fnb div.wrap ul li.box a {
   padding-bottom: 35px;
   box-sizing: border-box;
 }
-section#fnb div.wrap ul li.box:nth-child(1) a {
+section#fnb div.wrap ul li.guide1 a {
   background-image: url(../img/fnb1.png);
 }
-section#fnb div.wrap ul li.box:nth-child(2) a {
+section#fnb div.wrap ul li.guide2 a {
   background-image: url(../img/fnb2.png);
 }
-section#fnb div.wrap ul li.box:nth-child(3) a {
+section#fnb div.wrap ul li.guide3 a {
   background-image: url(../img/fnb3.png);
 }
-section#fnb div.wrap ul li.box:nth-child(4) a {
+section#fnb div.wrap ul li.guide4 a {
   background-image: url(../img/fnb4.png);
 }
-section#fnb div.wrap ul li.box:nth-child(5) a {
+section#fnb div.wrap ul li.guide5 a {
   background-image: url(../img/fnb5.png);
 }
-section#fnb div.wrap ul li.box:nth-child(6) a {
+section#fnb div.wrap ul li.guide6 a {
   background-image: url(../img/fnb6.png);
 }
-section#fnb div.wrap ul li.box:nth-child(7) a {
+section#fnb div.wrap ul li.guide7 a {
   background-image: url(../img/fnb7.png);
 }
-section#fnb div.wrap ul li.box:nth-child(8) a {
+section#fnb div.wrap ul li.guide8 a {
   background-image: url(../img/fnb8.png);
 }
-section#fnb div.wrap ul li.box:nth-child(9) a {
+section#fnb div.wrap ul li.guide9 a {
   background-image: url(../img/fnb9.png);
 }
-section#fnb div.wrap ul li.box:nth-child(10) a {
+section#fnb div.wrap ul li.guide10 a {
   background-image: url(../img/fnb10.png);
 }
-section#fnb div.wrap ul li.box:nth-child(11) a {
+section#fnb div.wrap ul li.guide11 a {
   background-image: url(../img/fnb11.png);
 }
-section#fnb div.wrap ul li.box:nth-child(12) a {
+section#fnb div.wrap ul li.guide12 a {
   background-image: url(../img/fnb12.png);
+}
+#fnb .slick-prev{
+  width: 30px;
+  height: 45px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/left.png);
+  background-position: right;
+  top: 50%;
+}
+#fnb .slick-prev::before{
+  content: "";
+}
+#fnb .slick-next{
+  width: 30px;
+  height: 45px;
+  display: block;
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../img/right.png);
+  background-position: left;
+  top: 50%;
+}
+#fnb .slick-next::before{
+  content: "";
 }
